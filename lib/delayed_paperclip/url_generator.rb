@@ -15,7 +15,7 @@ module DelayedPaperclip
           @attachment.processing_image_url
         end
       else
-        @attachment_options[:url]
+        attachment_options[:url]
       end
     end
 
